@@ -1,0 +1,4 @@
+打开adb 分别执行以下三句话
+adb shell am broadcast -a NotifyServiceStop
+adb forward tcp:5000 tcp:13000
+adb shell am broadcast -a NotifyServiceStart
